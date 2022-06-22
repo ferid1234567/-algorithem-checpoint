@@ -1,0 +1,28 @@
+VAR 
+i,j,k,sumv:integer:=0;
+st:STRING;
+BEGIN
+i:=0;
+read(st);
+WHILE(st[i] <> ".") DO
+    i:=i+1;
+END_WHILE
+    sumv:=0;
+    j:=0;
+    k:=0;
+    
+FOR(j=0;j=i;j++)
+IF(st[j]==" ") THEN
+k:=k+1;
+END_IF
+IF(st[j]==a or st[j]==e or st[j]==u or st[j]==i or st[j]==o ) THEN
+sumv:=sumv+1;
+END_IF
+END_FOR
+write("the number of word is",k+1,"the number of carecter is",i+1,"the number of vowls is",sumv);
+END
+
+
+
+
+
