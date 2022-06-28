@@ -15,7 +15,7 @@ FOR j FROM 0 TO i DO
 IF(st[j]==" ") THEN
 k:=k+1;
 END_IF
-IF(st[j]==MAJ[a] or st[j]==MAJ[e] or st[j]==[u] or st[j]==[i] or st[j]==[o] ) THEN
+IF(Majus(st[j])=="A" or Majus(st[j])=="E" or Majus(st[j])=="U" or Majus(st[j])=="I" or Majus(st[j])=="O" ) THEN
 sumv:=sumv+1;
 END_IF
 END_FOR
